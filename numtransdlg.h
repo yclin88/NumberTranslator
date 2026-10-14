@@ -14,5 +14,10 @@ private:
     QLineEdit* decEdit;
     QLineEdit* hexEdit;
     QLineEdit* binEdit;
+    QPushButton* exitButton;
+private slots:
+    void decChanged(QString);
+    void hexChanged(QString);
+    void binChanged(QString);
 };
 #endif // NUMTRANSDLG_H
